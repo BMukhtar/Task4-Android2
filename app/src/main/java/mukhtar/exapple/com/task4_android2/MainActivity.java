@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 "rSG1aMkNrWUtYSXgyalpVeGgyT0hMSENNeEdoWVBFT01TaGVSUkdmeFhyd05PZjJzbW" +
                 "pDLzA4UjhiQ3lCUVp1N1ViRU5WTEplLzFTM0J3VzE4U1JTZTVKR3VBVTNQVlNKTTB" +
                 "3YzQ0eTZUTmwzN1p2QW9mQ3k/picca-romans_(mp3.cc).mp3";
-        urlDirectory = ourDirectory + "myDownloads" +counter+++"." + downloadUrl.split("/.")[downloadUrl.split("/.").length-1];
+        urlDirectory = ourDirectory + "myDownloads" +counter+++"." + downloadUrl.split("/.")[downloadUrl.split("/   .").length-1];
         mProgressDialog = new ProgressDialog(MainActivity.this);
         mProgressDialog.setMessage("A message");
         mProgressDialog.setIndeterminate(true);
